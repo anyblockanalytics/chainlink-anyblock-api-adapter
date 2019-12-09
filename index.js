@@ -1,7 +1,7 @@
 const request = require("request");
 
 const createRequest = (input, callback) => {
-	let url = "https://api.eth.events/ethereum/";
+	let url = "https://api.anyblock.tools/ethereum/";
 	const blockchain = input.data.blockchain || "ethereum";
 	const network = input.data.network || "mainnet";
 	const iface = input.data.interface || "es";

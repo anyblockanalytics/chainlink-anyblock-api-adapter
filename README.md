@@ -1,4 +1,4 @@
-# Chainlink eth.events external adapter
+# Chainlink Anyblock Analytics external adapter
 
 ## Input Params
 
