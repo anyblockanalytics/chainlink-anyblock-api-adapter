@@ -1,3 +1,4 @@
+require('dotenv').config()
 const assert = require("chai").assert;
 const createRequest = require("../index.js").createRequest;
 
