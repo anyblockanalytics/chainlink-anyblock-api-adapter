@@ -8,13 +8,13 @@ ENTRYPOINT ["/tini", "--"]
 
 EXPOSE 8080
 
-ENV NODE_ENV=production
-
 WORKDIR /usr/src/app
 
 COPY package*.json ./
 
 RUN npm ci
+
+ENV NODE_ENV=production
 
 COPY ./*.js ./
 

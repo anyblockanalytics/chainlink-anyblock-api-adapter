@@ -1,7 +1,7 @@
 {
-  "name": "EA-NodeJS-Template",
+  "name": "chainlink-anyblock-api-adapter",
   "version": "1.0.0",
-  "author": "",
+  "author": "Anyblock Analytics <tech@anyblockanalytics.com>",
   "description": "",
   "license": "MIT",
   "scripts": {
